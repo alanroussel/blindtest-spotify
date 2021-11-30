@@ -25,7 +25,7 @@ const App = () => {
       .then(response => response.json())
       .then(data => {
         console.log("Réponse reçue ! Voilà ce que j'ai reçu : ", data)
-        setText2("Réponse reçue ! Voilà ce que j'ai reçu : ")
+        setText2("Réponse reçue ! Voilà ce que j'ai reçu : " )
         setTracks(data.items)
         setSongLoaded(true)
         console.log()
